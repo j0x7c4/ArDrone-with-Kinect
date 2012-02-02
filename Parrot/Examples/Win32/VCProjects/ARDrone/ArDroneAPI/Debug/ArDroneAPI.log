@@ -1,0 +1,101 @@
+﻿Build started 2012/1/12 18:43:59.
+     1>Project "D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\ArDroneAPI\ArDroneAPI.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ArDroneAPI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\Debug\ArDroneAPI.lib" /NOLOGO Debug\ardrone_api.obj
+         Debug\ardrone_at_mutex.obj
+         Debug\ardrone_control.obj
+         Debug\ardrone_control_ack.obj
+         Debug\ardrone_control_configuration.obj
+         Debug\ardrone_control_soft_update.obj
+         Debug\ardrone_input.obj
+         Debug\ardrone_navdata_client.obj
+         Debug\ardrone_navdata_control.obj
+         Debug\ardrone_navdata_file.obj
+         Debug\ardrone_time.obj
+         Debug\ardrone_tool_configuration.obj
+         Debug\ardrone_tool_ui.obj
+         Debug\ATcodec.obj
+         Debug\ATcodec_api.obj
+         Debug\ATcodec_Buffer.obj
+         Debug\ATcodec_Memory.obj
+         Debug\ATcodec_Sorted_List.obj
+         Debug\ATcodec_Tree.obj
+         Debug\buffer_to_picture_stage.obj
+         Debug\config_keys.obj
+         Debug\config_serial.obj
+         Debug\config_wifi.obj
+         Debug\dictionary.obj
+         Debug\filter.obj
+         Debug\iniparser.obj
+         Debug\maths.obj
+         Debug\matrices.obj
+         Debug\matrix3d.obj
+         Debug\navdata.obj
+         Debug\p263_codec.obj
+         Debug\p263_gob_layer.obj
+         Debug\p263_huffman.obj
+         Debug\p263_mb_layer.obj
+         Debug\p263_picture_layer.obj
+         Debug\time.obj
+         Debug\uvlc.obj
+         Debug\uvlc_codec.obj
+         Debug\uvlc_gob_layer.obj
+         Debug\uvlc_mb_layer.obj
+         Debug\uvlc_picture_layer.obj
+         Debug\video_codec.obj
+         Debug\video_com_stage.obj
+         Debug\video_controller.obj
+         Debug\video_dct.obj
+         Debug\video_huffman.obj
+         Debug\video_macroblock.obj
+         Debug\video_mem32.obj
+         Debug\video_packetizer.obj
+         Debug\video_picture.obj
+         Debug\video_quantizer.obj
+         Debug\video_stage_recorder.obj
+         Debug\video_utils.obj
+         Debug\vision_math.obj
+         Debug\vlib_stage_decode.obj
+         Debug\vlib_stage_encode.obj
+         Debug\vp_api.obj
+         Debug\vp_api_error.obj
+         Debug\vp_api_io_multi_stage.obj
+         Debug\vp_api_stage.obj
+         Debug\vp_api_supervisor.obj
+         Debug\vp_api_thread_helper.obj
+         Debug\vp_com.obj
+         Debug\vp_com_config_itf.obj
+         Debug\vp_com_error.obj
+         Debug\vp_com_socket.obj
+         Debug\vp_com_socket_utils.obj
+         Debug\vp_com_wifi.obj
+         Debug\vp_os_delay.obj
+         Debug\vp_os_error_handling.obj
+         Debug\vp_os_malloc.obj
+         Debug\vp_os_signal.obj
+         Debug\vp_os_thread.obj
+         Debug\vp_stages_buffer_to_picture.obj
+         Debug\vp_stages_configs.obj
+         Debug\vp_stages_frame_pipe.obj
+         Debug\vp_stages_io_buffer.obj
+         Debug\vp_stages_io_com.obj
+         Debug\vp_stages_io_console.obj
+         Debug\vp_stages_io_file.obj
+         Debug\vp_stages_o_sdl.obj
+         Debug\vp_stages_yuv2rgb.obj
+     1>time.obj : warning LNK4006: _gettimeofday already defined in video_stage_recorder.obj; second definition ignored
+     1>ardrone_navdata_file.obj : warning LNK4006: _gettimeofday already defined in video_stage_recorder.obj; second definition ignored
+     1>ardrone_api.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         ArDroneAPI.vcxproj -> D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\Debug\ArDroneAPI.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ArDroneAPI.unsuccessfulbuild".
+         Touching "Debug\ArDroneAPI.lastbuildstate".
+     1>Done Building Project "D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\ArDroneAPI\ArDroneAPI.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.30

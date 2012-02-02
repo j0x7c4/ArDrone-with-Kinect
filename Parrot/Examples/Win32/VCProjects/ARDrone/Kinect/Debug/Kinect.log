@@ -1,0 +1,55 @@
+﻿Build started 2012/1/6 19:48:58.
+     1>Project "D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\Kinect\Kinect.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Kinect.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt kinect.cpp
+         Skipping... (no relevant changes detected)
+         kinect.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Kinect.exe.embed.manifest.res" Debug\Kinect_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\Debug\Kinect.exe" /INCREMENTAL /NOLOGO opencv_core220d.lib opencv_highgui220d.lib opencv_ffmpeg220d.lib MSRKinectNUI.lib Win32Client.lib ArDroneAPI.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Kinect.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\Debug\Kinect.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\Debug\Kinect.lib" /MACHINE:X86 Debug\Kinect.exe.embed.manifest.res
+         Debug\kinect.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>Win32Client.lib(video_com_stage.obj) : error LNK2001: unresolved external symbol _setsockopt@20
+     1>Win32Client.lib(ardrone_tool_win32.obj) : error LNK2019: unresolved external symbol _setsockopt@20 referenced in function _test_drone_connection
+     1>Win32Client.lib(config_wifi.obj) : error LNK2001: unresolved external symbol _setsockopt@20
+     1>Win32Client.lib(ardrone_navdata_client.obj) : error LNK2001: unresolved external symbol _setsockopt@20
+     1>Win32Client.lib(ardrone_control.obj) : error LNK2001: unresolved external symbol _setsockopt@20
+     1>Win32Client.lib(ardrone_tool_win32.obj) : error LNK2019: unresolved external symbol _WSACleanup@0 referenced in function _ARDroneMain
+     1>Win32Client.lib(ardrone_tool_win32.obj) : error LNK2019: unresolved external symbol _WSAStartup@8 referenced in function _ARDroneMain
+     1>Win32Client.lib(config_wifi.obj) : error LNK2019: unresolved external symbol _inet_ntoa@4 referenced in function _wifi_server_auth
+     1>Win32Client.lib(config_wifi.obj) : error LNK2019: unresolved external symbol _htonl@4 referenced in function _wifi_server_auth
+     1>Win32Client.lib(gamepad.obj) : error LNK2001: unresolved external symbol _c_dfDIKeyboard
+     1>Win32Client.lib(gamepad.obj) : error LNK2001: unresolved external symbol _GUID_SysKeyboard
+     1>Win32Client.lib(gamepad.obj) : error LNK2019: unresolved external symbol _DirectInput8Create@20 referenced in function _open_dx_keyboard
+     1>Win32Client.lib(gamepad.obj) : error LNK2001: unresolved external symbol _IID_IDirectInput8W
+     1>Win32Client.lib(gamepad.obj) : error LNK2001: unresolved external symbol _c_dfDIJoystick2
+     1>Win32Client.lib(gamepad.obj) : error LNK2001: unresolved external symbol _IID_IDirectInputJoyConfig8
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__closesocket@4 referenced in function _vp_com_open_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__connect@12 referenced in function _vp_com_open_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__WSAGetLastError@0 referenced in function _vp_com_open_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__bind@12 referenced in function _vp_com_open_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__htons@4 referenced in function _vp_com_open_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__setsockopt@20 referenced in function _vp_com_open_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__inet_addr@4 referenced in function _vp_com_open_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__socket@12 referenced in function _vp_com_open_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__accept@12 referenced in function _vp_com_wait_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__listen@8 referenced in function _vp_com_wait_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__recvfrom@24 referenced in function _vp_com_read_udp_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__ioctlsocket@12 referenced in function _vp_com_read_udp_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__send@16 referenced in function _vp_com_write_udp_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__recv@16 referenced in function _vp_com_read_socket
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol ___WSAFDIsSet@8 referenced in function _thread_vp_com_server@4
+     1>Win32Client.lib(vp_com_socket.obj) : error LNK2019: unresolved external symbol __imp__select@20 referenced in function _thread_vp_com_server@4
+     1>Win32Client.lib(video_com_stage.obj) : error LNK2019: unresolved external symbol _getsockopt@20 referenced in function _video_com_stage_open
+     1>Win32Client.lib(vp_com_socket_utils.obj) : error LNK2019: unresolved external symbol _closesocket@4 referenced in function _vp_com_close_client_sockets
+     1>Win32Client.lib(vp_com_socket_utils.obj) : error LNK2019: unresolved external symbol _accept@12 referenced in function _vp_com_client_open_socket
+     1>Win32Client.lib(vp_com_socket_utils.obj) : error LNK2019: unresolved external symbol _recvfrom@24 referenced in function _vp_com_client_receive
+     1>D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\Debug\Kinect.exe : fatal error LNK1120: 31 unresolved externals
+     1>Done Building Project "D:\source\Parrot\Examples\Win32\VCProjects\ARDrone\Kinect\Kinect.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.95
